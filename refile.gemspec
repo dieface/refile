@@ -17,7 +17,7 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = %w[lib spec]
 
-  spec.required_ruby_version = ">= 2.1.0"
+  spec.required_ruby_version = ">= 2.0.0"
 
   spec.add_dependency "rest-client", "~> 1.7.2"
   spec.add_dependency "sinatra", "~> 1.4.5"
